@@ -11,6 +11,7 @@ public class Main {
         button.touch();
         button.touch();
         button.touch();
+        System.out.println(button.getClickCount());
 
         Balance scales = new Balance();
         scales.addLeft(15);
